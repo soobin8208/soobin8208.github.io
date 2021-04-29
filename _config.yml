@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "최수빈"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "용인외대부고 16기 자연과정"
   location         : "대한민국, 서울"
   email            : "soobin8208@gmail.com"
