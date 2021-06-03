@@ -70,4 +70,48 @@ int main(void)
  return 0; 
 }
 ~~~ 
+### 04. 30분전
+![time](/assets/images/형성평가4.jpg) 
+~~~c 
+#include <stdio.h>
 
+int main(void) 
+{
+  int hour, min;
+  printf("시간과 분을 입력하세요: ");
+  scanf("%d %d", &hour, &min);
+  printf("입력한 시간의 30분 전의 시간은 ");
+  if(min>=30)
+  printf("%d시 %d분\n", hour, min-30);
+  else 
+  {
+    if(hour==0)
+    printf("%d시 %d분\n", 23, min+30);
+
+    else
+    printf("%d시 %d분", hour-1, min+30);
+  }
+  //가장 먼저 기준을 잡아야 할것이 분이고 시간을 나눠서 들어갈 수 있어야 함
+  
+}
+~~~
+### 05. 중단원 정리 1번
+![jungri](/assets/images/형성평가5.jpg) 
+~~~c 
+#include <stdio.h>
+
+int main(void) 
+{
+  int money, remain;
+  int book = 15000;
+  
+  printf("책의 가격은 15000원입니다.\n");
+  printf("현재 용돈은?: ");
+  scanf("%d", &money);
+  if(money>=book)
+  {printf("책 구입 성공\n나머지: %d", money-book);}
+  else 
+  printf("책 구입 실패");
+
+}
+~~~
