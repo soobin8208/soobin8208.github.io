@@ -116,7 +116,7 @@ int main(void)
 }
 ~~~
 ### 06. 도어락
-![doorlock](/assets/images/형성평가6.png) 
+![doorlock](/assets/images/형성평가6.PNG) 
 ~~~c 
 #include <stdio.h>
 
