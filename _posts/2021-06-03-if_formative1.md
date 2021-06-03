@@ -115,3 +115,41 @@ int main(void)
 
 }
 ~~~
+### 06. 도어락
+![doorlock](/assets/images/형성평가6.png) 
+~~~c 
+#include <stdio.h>
+
+int main(void)
+{
+  int select;
+char dic='c', ic;
+int dpw= 24680, pw;
+double dfig=1.2345678, fig;
+
+printf("장치 선택: ");
+scanf("%d", &select);
+if(select==1)
+{
+  printf("IC 카드: ");
+  scanf(" %c", &ic);
+}
+else if(select==2)
+{
+  printf("비밀 번호: ");
+  scanf("%d", &pw);
+}
+if(select==3)
+{
+  printf("지문: ");
+  scanf("%lf", &fig);
+}
+
+if(dic==ic || dpw==pw || dfig==fig)
+
+printf("문 열림~!");
+else 
+printf("디리릭디리릭~");
+
+}
+~~~
