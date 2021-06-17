@@ -1,7 +1,16 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "C언어 프로그래밍 학습하기"
+    url: https://soobin8208.github.io/intro/
+    main:
+  - title: "디즈니 영화 모음"
+    url: https://soobin8208.github.io/%EB%94%94%EC%A6%88%EB%8B%88-%EC%98%81%ED%99%94/
+    main:
+  - title: "(o゜▽゜)o☆"
+    url: https://soobin8208.github.io/ytubeTest/
+    main:
+  - title: "조건문"
+    url: https://soobin8208.github.io/if_formative1/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
